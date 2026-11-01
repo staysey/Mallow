@@ -7,11 +7,11 @@ export type CatHandle = {
   unmount: () => void
 }
 
-export function mountCat(host: HTMLElement, note: CatNote): CatHandle {
+export function mountCat(host: HTMLElement, note: CatNote, portrait = false): CatHandle {
   const root: Root = createRoot(host)
 
   const render = (next: CatNote) => {
-    root.render(<CatScene note={next} />)
+    root.render(<CatScene note={next} portrait={portrait} />)
   }
 
   render(note)

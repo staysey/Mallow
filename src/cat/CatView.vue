@@ -5,6 +5,7 @@ import type { CatNote } from './types'
 
 const props = defineProps<{
   note: CatNote
+  portrait?: boolean
 }>()
 
 const host = ref<HTMLElement | null>(null)
@@ -12,7 +13,7 @@ let handle: CatHandle | null = null
 
 onMounted(() => {
   if (!host.value) return
-  handle = mountCat(host.value, props.note)
+  handle = mountCat(host.value, props.note, props.portrait)
 })
 
 watch(

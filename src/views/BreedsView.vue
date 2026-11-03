@@ -1,8 +1,33 @@
 <script setup lang="ts">
-import { breeds } from '../data/breeds'
-import UiChip from '../ui/UiChip.vue'
+import { onMounted, ref, computed } from "vue";
+import { getBreeds } from "../api/getBreeds";
+import type { Breed } from "../data/breeds";
+import UiChip from "../ui/UiChip.vue";
+import UiSearch from "../ui/UiSearch.vue";
 
-const portrait = '/breed-cat.png'
+const portrait = "/breed-cat.png";
+const breeds = ref<Breed[]>([]);
+const loading = ref(true);
+const error = ref("");
+const search = ref("");
+
+onMounted(async () => {
+  try {
+    breeds.value = await getBreeds();
+  } catch {
+    error.value = "The catalog could not be opened.";
+  } finally {
+    loading.value = false;
+  }
+});
+
+const filteredBreeds = computed(() => {
+  return search.value
+    ? breeds.value.filter((breed) =>
+        breed.name.toLowerCase().includes(search.value.toLowerCase()),
+      )
+    : breeds.value;
+});
 </script>
 
 <template>
@@ -10,8 +35,15 @@ const portrait = '/breed-cat.png'
     <header class="catalog-intro">
       <p class="catalog-kicker">Mallow living compendium</p>
       <h1>Quiet companions & serene souls</h1>
-      <p>A short catalog of breeds. One cat, a different nature on every card.</p>
+      <p>
+        A short catalog of breeds. One cat, a different nature on every card.
+      </p>
       <div class="catalog-filters">
+        <UiSearch
+          v-model="search"
+          placeholder="Search breeds..."
+          label="Find your feline match"
+        />
         <UiChip>Catalog</UiChip>
         <UiChip tone="pink">Calm</UiChip>
         <UiChip tone="blue">Vocal</UiChip>
@@ -19,8 +51,11 @@ const portrait = '/breed-cat.png'
       </div>
     </header>
 
+    <p v-if="loading" class="catalog-status">Opening the catalog…</p>
+    <p v-else-if="error" class="catalog-status">{{ error }}</p>
+
     <article
-      v-for="(breed, index) in breeds"
+      v-for="(breed, index) in filteredBreeds"
       :key="breed.id"
       class="breed-card glass"
       :class="{ 'is-flipped': index % 2 === 1 }"
@@ -39,7 +74,10 @@ const portrait = '/breed-cat.png'
             {{ tag.label }}
           </UiChip>
         </div>
-        <RouterLink :to="`/breeds/${breed.id}`" class="ui-button ui-button-primary">
+        <RouterLink
+          :to="`/breeds/${breed.id}`"
+          class="ui-button ui-button-primary"
+        >
           {{ breed.action }}
         </RouterLink>
       </div>
@@ -90,6 +128,12 @@ const portrait = '/breed-cat.png'
 .catalog-filters {
   justify-content: center;
   margin-top: 1rem;
+}
+
+.catalog-status {
+  margin: 2rem auto 0;
+  text-align: center;
+  color: var(--muted);
 }
 
 .breed-card {

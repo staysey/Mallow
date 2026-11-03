@@ -1,4 +1,4 @@
-export type CatPattern = 'solid' | 'stripes' | 'spots'
+export type CatPattern = 'solid' | 'stripes' | 'spots' | 'points' | 'mask'
 
 export type CatNote = {
   name: string

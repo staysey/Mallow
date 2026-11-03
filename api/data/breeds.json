@@ -1,0 +1,170 @@
+[
+  {
+    "id": "british-shorthair",
+    "name": "British Shorthair",
+    "line": "Plush and unhurried",
+    "eyebrow": "Coat · Temperament · Home",
+    "summary": "A dense coat, round face, and quiet company. Content in a small home when the day stays calm.",
+    "coat": "#b3aec4",
+    "pattern": "solid",
+    "story": "A round face, copper eyes, and a coat that feels like short velvet. This cat keeps its own hours and settles into a small home when the rooms stay calm.",
+    "description": "The British Shorthair is a compact, sturdy cat with a dense plush coat and a round, open face. Blue is the colour most people know, though the breed comes in many shades. It was shaped in Britain as a quiet house companion and still looks like a living ornament on a window seat.",
+    "temperament": "Unhurried and even. It watches the room more than it asks for it, stays nearby without climbing into every task, and is content with short play and a steady routine. New guests are noted, then ignored.",
+    "note": "It does well in a calm apartment: a sunny chair, a weekly brush for the undercoat, and company that does not need a conversation.",
+    "tags": [
+      { "label": "Plush coat" },
+      { "label": "Quiet", "tone": "pink" },
+      { "label": "Apartment", "tone": "blue" }
+    ],
+    "action": "Open breed guide",
+    "saveLabel": "Save this breed",
+    "asideLabel": "All breeds"
+  },
+  {
+    "id": "siamese",
+    "name": "Siamese",
+    "line": "Vocal and devoted",
+    "eyebrow": "Voice · Energy · Company",
+    "summary": "A slim body, large ears, and a loud hello. Wants people nearby and will say so.",
+    "coat": "#e8c49a",
+    "pattern": "mask",
+    "story": "A slim body, deep blue eyes, and a voice that carries down the hall. This cat follows the person it has chosen and will say so until someone answers.",
+    "description": "The Siamese is a long, fine-boned cat with large ears, a dark mask, and a pale body. The coat is short and close. It was bred as a companion that stays in the room with you, not as a cat that keeps to the edges.",
+    "temperament": "Talkative, bright, and loyal to one household. It wants a person in sight and will follow from kitchen to desk. Silence bores it. A closed door feels like a slight.",
+    "note": "The coat needs almost no brushing. What it does need is company: a lap, a conversation, and a door that is not shut for long.",
+    "tags": [
+      { "label": "Talkative" },
+      { "label": "Devoted", "tone": "pink" },
+      { "label": "Active", "tone": "blue" }
+    ],
+    "action": "Open breed guide",
+    "saveLabel": "Save this breed",
+    "asideLabel": "All breeds"
+  },
+  {
+    "id": "maine-coon",
+    "name": "Maine Coon",
+    "line": "Gentle and large",
+    "eyebrow": "Size · Coat · Family",
+    "summary": "A long body, tufted ears, and a soft voice for such a big cat. Needs room to stretch.",
+    "coat": "#e0893f",
+    "pattern": "stripes",
+    "story": "A long body, tufted ears, and a soft chirp that does not match the size. This cat is gentle in a busy room and needs space to stretch out all the way.",
+    "description": "The Maine Coon is a large, long-bodied cat with tufted ears, a full tail, and a weatherproof coat. It grew up in New England homes and barns. The voice is a small trill, not a shout, which surprises people who only see the size.",
+    "temperament": "Gentle with families and other animals when introduced with care. It likes to be in the same room, not always on a lap. It will follow you to the next task and then lie across the floor as if the house were built around it.",
+    "note": "Comb the belly and the trousers of the coat a few times a week. Offer a tall perch and a floor that has room for a real run.",
+    "tags": [
+      { "label": "Large" },
+      { "label": "Gentle", "tone": "pink" },
+      { "label": "Family", "tone": "blue" }
+    ],
+    "action": "Open breed guide",
+    "saveLabel": "Save this breed",
+    "asideLabel": "All breeds"
+  },
+  {
+    "id": "ragdoll",
+    "name": "Ragdoll",
+    "line": "Soft and steady",
+    "eyebrow": "Temperament · Coat · Care",
+    "summary": "A pale coat, blue eyes, and a lap that goes limp when held. Easy company, regular brushing.",
+    "coat": "#f7f1e6",
+    "pattern": "points",
+    "story": "A pale coat, blue eyes, and a body that goes loose when it is picked up. This cat is easy company: it follows quietly and is happy to stay in a lap.",
+    "description": "The Ragdoll is a large, semi-longhaired cat with blue eyes and colour on the points. The coat is silky rather than woolly. When held, many of them go slack, which is how the name arrived.",
+    "temperament": "Soft, patient, and happy to stay where you put it. It greets people without a fuss and prefers a calm room to a noisy one. It will follow from sofa to desk and then settle as a warm weight.",
+    "note": "The silky coat mats if it is left alone, so a weekly brush keeps it soft. It prefers a calm room and a person who sits still for a while.",
+    "tags": [
+      { "label": "Relaxed" },
+      { "label": "Affectionate", "tone": "pink" },
+      { "label": "Brush weekly", "tone": "blue" }
+    ],
+    "action": "Open breed guide",
+    "saveLabel": "Save this breed",
+    "asideLabel": "All breeds"
+  },
+  {
+    "id": "bengal",
+    "name": "Bengal",
+    "line": "Spotted and bright",
+    "eyebrow": "Energy · Coat · Play",
+    "summary": "A wild-looking coat and a mind that wants a job. Happiest when the house has games, height, and someone to chase after.",
+    "coat": "#e0893f",
+    "pattern": "spots",
+    "story": "A sleek body and a coat that looks borrowed from a small leopard. This cat climbs, watches moving water, and will invent a game if none is offered.",
+    "description": "The Bengal is a muscular, short-coated cat with spots or marble swirls and a glitter in the fur. It was bred for that wild look and a house-ready mind. The body is athletic: low, long, and ready to jump.",
+    "temperament": "Curious and busy. It wants a job, a height, and a person who will play in earnest. Stillness is not its gift. Water, paper bags, and anything that moves will hold its attention.",
+    "note": "The short coat is easy. The day is not: it wants play that lasts, a tall perch, and a person who will join in.",
+    "tags": [
+      { "label": "Spotted" },
+      { "label": "Athletic", "tone": "pink" },
+      { "label": "Play daily", "tone": "blue" }
+    ],
+    "action": "Open breed guide",
+    "saveLabel": "Save this breed",
+    "asideLabel": "All breeds"
+  },
+  {
+    "id": "russian-blue",
+    "name": "Russian Blue",
+    "line": "Silver and reserved",
+    "eyebrow": "Coat · Temperament · Home",
+    "summary": "A silver coat, green eyes, and a shy hello. Warms slowly, then stays close to the one person it has chosen.",
+    "coat": "#b3aec4",
+    "pattern": "solid",
+    "story": "A fine silver coat and a quiet face. This cat watches from a chair before it comes over, and once it has chosen you, it keeps that choice.",
+    "description": "The Russian Blue is a slim, elegant cat with a short silver coat and vivid green eyes. The fur stands away from the body and looks plush without being long. It is often shy at first glance and very neat in a small home.",
+    "temperament": "Reserved with strangers, loyal after a slow start. It chooses one or two people and stays near them. Noise and sudden guests send it under a chair; a quiet evening brings it back to the arm of the sofa.",
+    "note": "The coat looks plush and needs only a light weekly pass. A calm room and one steady person matter more than toys.",
+    "tags": [
+      { "label": "Silver" },
+      { "label": "Reserved", "tone": "pink" },
+      { "label": "Quiet home", "tone": "blue" }
+    ],
+    "action": "Open breed guide",
+    "saveLabel": "Save this breed",
+    "asideLabel": "All breeds"
+  },
+  {
+    "id": "norwegian-forest",
+    "name": "Norwegian Forest",
+    "line": "Weathered and kind",
+    "eyebrow": "Size · Coat · Outdoors",
+    "summary": "A long ruff, tufted ears, and a calm climb. Built for cold air and a window that looks at trees.",
+    "coat": "#f0d2aa",
+    "pattern": "stripes",
+    "story": "A heavy coat and a slow, sure body. This cat likes height, a view, and the feeling of weather on the glass more than a crowded lap.",
+    "description": "The Norwegian Forest is a large, naturally hardy cat with a double coat, a full ruff, and tufted ears. It was shaped by cold weather and farm life. The hind legs are long, so it climbs with little effort and looks at home on a high shelf.",
+    "temperament": "Kind and independent. It enjoys company without asking for constant hands. A window, a tree in view, and a household that lets it come and go from the room are enough.",
+    "note": "The double coat needs a comb through the ruff and the trousers. Give it a high seat and room to look out.",
+    "tags": [
+      { "label": "Long coat" },
+      { "label": "Climber", "tone": "pink" },
+      { "label": "Window seat", "tone": "blue" }
+    ],
+    "action": "Open breed guide",
+    "saveLabel": "Save this breed",
+    "asideLabel": "All breeds"
+  },
+  {
+    "id": "abyssinian",
+    "name": "Abyssinian",
+    "line": "Lithe and curious",
+    "eyebrow": "Energy · Coat · Mind",
+    "summary": "A ticked coat and a body that never quite sits still. Follows every sound and wants to be in the middle of the day.",
+    "coat": "#e0893f",
+    "pattern": "solid",
+    "story": "A fine ticked coat, large ears, and a look that is always asking what is next. This cat opens cupboards in its mind and will open yours if you let it.",
+    "description": "The Abyssinian is a lithe, medium cat with a ticked coat that looks sun-warmed. The ears are large, the body light, and the movement quick. It was kept as a curious house cat, not a lap weight.",
+    "temperament": "Alert and nosy in the kindest sense. It wants to know what you are doing and will inspect a bag, a shelf, and a conversation. A quiet day still needs a puzzle or a climb.",
+    "note": "Little brushing. What it needs is interest: a puzzle, a shelf to inspect, and a person who does not mind being followed.",
+    "tags": [
+      { "label": "Ticked" },
+      { "label": "Curious", "tone": "pink" },
+      { "label": "Active home", "tone": "blue" }
+    ],
+    "action": "Open breed guide",
+    "saveLabel": "Save this breed",
+    "asideLabel": "All breeds"
+  }
+]
